@@ -6,7 +6,7 @@ Aint that exciting?
 #### Quickstart 
 
 ```sh
-$ git clone https://github.com/sshirokov/ZNC.el
+$ git clone https://github.com/preceptsofzote/ZNC.el
 ```
 
 Make sure the contents of the repo, or just [znc.el](/znc.el) is on your load-path.
@@ -59,5 +59,3 @@ M-x znc-all
 
 By default, when you kill a channel buffer instead of `/part`ing from the channel, you will `/detach` from it.
 This is customizable. 
-
-You can also get ZNC.el from the [MELPA](https://melpa.org/#/znc) ELPA repository. See https://melpa.org/#/getting-started for instructions on using it.
