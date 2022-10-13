@@ -7,7 +7,7 @@
 ;; Package-Requires: ((cl-lib "0.2"))
 ;; Also available via Marmalade http://marmalade-repo.org/
 ;;;;;;
-(require 'cl)
+(require 'cl-lib)
 (require 'erc)
 
 (defgroup znc nil
