@@ -133,7 +133,7 @@ some of the quirks that arise from using it with a naive ERC. "
        (znc-detach-channel))))
 
 ;;; Traversal
-(defun* znc-walk-all-servers (&key (each (lambda (&rest r) (mapcar 'identity r)))
+(cl-defun znc-walk-all-servers (&key (each (lambda (&rest r) (mapcar 'identity r)))
                                    (pred (lambda (&rest _) t))
                                    (first nil))
   "Walk every defined server and user pair calling `each' every time `pred' is non-nil
